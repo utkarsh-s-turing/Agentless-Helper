@@ -21,12 +21,12 @@ For any task, just run the script, and everything will be ready to work! 🚀
 Run the script with the required arguments:
 
 ```bash
-bash script.sh PYTHON_VERSION ENV_NAME GIT_URL COMMIT_HASH
+bash local_setup.sh PYTHON_VERSION ENV_NAME GIT_URL COMMIT_HASH
 ```
 
 ### **Example**
 ```bash
-bash script.sh 3.10 my_new_env https://github.com/pydata/xarray.git e56905889c836c736152b11a7e6117a229715975
+bash local_setup.sh 3.10 my_new_env https://github.com/pydata/xarray.git e56905889c836c736152b11a7e6117a229715975
 ```
 
 This will:
