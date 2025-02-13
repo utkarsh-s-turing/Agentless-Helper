@@ -26,11 +26,11 @@ bash local_setup.sh PYTHON_VERSION ENV_NAME GIT_URL COMMIT_HASH
 
 ### **Example**
 ```bash
-bash local_setup.sh 3.10 my_new_env https://github.com/pydata/xarray.git e56905889c836c736152b11a7e6117a229715975
+bash local_setup.sh 3.7 my_new_env https://github.com/pydata/xarray.git e56905889c836c736152b11a7e6117a229715975
 ```
 
 This will:
-1. Install Python `3.10` (if not installed)
+1. Install Python `3.7` (if not installed)
 2. Remove any existing virtual environment and repository (for a fresh start)
 3. Create and activate a virtual environment (`my_new_env`)
 4. Clone the `xarray` repository
